@@ -1,1 +1,0 @@
-# Tomato-Disease-Classification-frontend
