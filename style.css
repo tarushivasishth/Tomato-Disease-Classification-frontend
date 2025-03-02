@@ -1,0 +1,95 @@
+/* Apply background image with blur effect */
+body {
+    background: url('images/img2.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    color: #fff; /* White text for contrast */
+}
+
+/* Heading */
+h1 {
+    font-size: 26px;
+    color: #f1c40f; /* Golden yellow for contrast */
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+#uploadForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="file"] {
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="file"]::file-selector-button {
+    background: #f1c40f;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: #b7950b; /* Darker shade of yellow on hover */
+}
+
+/* Button Styling */
+button {
+    background: #f1c40f;
+    color: black;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #b7950b;
+}
+
+/* Result Section */
+#result {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #f1c40f;
+}
+
+p {
+    font-size: 18px;
+}
